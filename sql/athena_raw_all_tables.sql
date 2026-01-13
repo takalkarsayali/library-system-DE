@@ -74,6 +74,7 @@ SET TBLPROPERTIES ('skip.header.line.count'='1');
 MSCK REPAIR TABLE library_raw.transactions;
 
 -- 🔍 Validate Each
+
 SELECT COUNT(*) FROM library_raw.authors;
 SELECT COUNT(*) FROM library_raw.categories;
 SELECT COUNT(*) FROM library_raw.books;
