@@ -19,8 +19,6 @@ SELECT
     true AS is_active
 FROM library_raw.members;
 
-
-
 -- 2️⃣ Validate
 SELECT *
 FROM library_curated.dim_member;
